@@ -1,0 +1,54 @@
+
+Actividad Ubuntu + GitHub
+
+--- ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos  ---
+  sistemas operativos y en otros no?.
+
+En breves términos, podemos decir que un lenguaje de programación sólo 
+puede utilizarse en algunos sistemas operativos y en otros no debido 
+a las diferencias en la arquitectura del procesador, las dependencias 
+de bibliotecas, la interfaz del sistema operativo y la política de 
+compatibilidad de los fabricantes de sistemas operativos.
+
+---  ¿Qué tipo de máquina virtual soporta virtualBox?  ---
+
+En general, VirtualBox puede soportar cualquier sistema operativo que 
+pueda ser instalado en un PC estándar, siempre y cuando se tenga el 
+hardware necesario y los controladores de dispositivos adecuados.
+
+Microsoft Windows: VirtualBox puede ejecutar prácticamente cualquier 
+versión de Microsoft Windows, incluyendo Windows XP, Windows Vista, 
+Windows 7, Windows 8, Windows 10 y versiones de servidor.
+
+Linux: VirtualBox es compatible con una amplia variedad de distribuciones 
+de Linux, como Ubuntu, Fedora, Debian, CentOS, y muchas más.
+
+MacOS: VirtualBox puede ejecutar sistemas operativos macOS en su máquina 
+virtual. Sin embargo, se requiere un hardware específico y una configuración 
+adicional para hacerlo.
+
+Otros sistemas operativos: VirtualBox también puede ejecutar otros sistemas 
+operativos como FreeBSD, Solaris y otros sistemas operativos de servidor.
+
+---  ¿Qué función cumple el hypervisor en la virtualización?  ---
+
+El hypervisor es responsable de asignar los recursos del hardware, como la CPU, 
+la memoria y los dispositivos de entrada/salida, a las máquinas virtuales. 
+También proporciona una interfaz de gestión para configurar y administrar las 
+máquinas virtuales, lo que permite a los administradores de sistemas crear, 
+clonar, eliminar y migrar máquinas virtuales según sea necesario.
+
+---  Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta
+a las demás? ¿por qué? ---
+
+Si una máquina virtual sufre una falla en el sistema operativo o en una aplicación 
+específica, esto no debería afectar a las demás máquinas virtuales que se estén 
+ejecutando en el mismo servidor. Esto se debe a que cada máquina virtual está 
+aislada de las demás, lo que significa que tienen su propio sistema operativo, 
+aplicaciones y recursos de hardware asignados.
+
+Por otro lado, aunque las máquinas virtuales están diseñadas para estar aisladas 
+unas de otras, una falla en una máquina virtual podría tener un efecto en cascada 
+en todas las máquinas virtuales que se ejecutan en el mismo servidor si se debe a 
+un problema en el hardware físico o a una configuración incorrecta del entorno de 
+virtualización.
